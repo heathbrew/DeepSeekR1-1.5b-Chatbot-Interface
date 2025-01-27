@@ -50,7 +50,7 @@ Innovators in AI-driven conversational interfaces.
 
 ## 9. Link to Project
 The project documentation, source code, and live demo will be available on the GitHub repository:  
-[GitHub Repository](#)
+[GitHub Repository](https://github.com/heathbrew/DeepSeekR1-1.5b-Chatbot-Interface)
 
 ---
 
