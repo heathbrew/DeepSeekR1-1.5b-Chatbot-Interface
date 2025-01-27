@@ -1,4 +1,5 @@
 # DeepSeekR1-1.5b Chatbot Interface
+![alt text](DeepseekR1-Photoroom.png)
 
 ## 1. Problem Statement
 Engaging in dynamic, real-time, and insightful conversations with large language models is often hindered by a lack of user-friendly interfaces, efficient backend integrations, and scalable deployment strategies. This project addresses these gaps by creating a seamless chatbot experience powered by the DeepSeekR1-1.5b model.
