@@ -1,0 +1,11 @@
+.input-box {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #00ffff;
+  border-radius: 5px;
+  background: #1a1a1a;
+  color: #fff;
+  font-family: "Courier New", monospace;
+  resize: none;
+  min-height: 80px;
+}
