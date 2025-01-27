@@ -37,7 +37,9 @@ Innovators in AI-driven conversational interfaces.
 ---
 
 ## 7. Screenshots
-*(Leave space for screenshots)*
+![image](https://github.com/user-attachments/assets/3aac7b62-3bb7-491b-906a-b259cffbeb10)
+![image](https://github.com/user-attachments/assets/532e1a1b-d722-4c34-8620-c04b701ebfd4)
+
 
 ---
 
