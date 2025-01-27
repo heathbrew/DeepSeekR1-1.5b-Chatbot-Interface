@@ -61,7 +61,6 @@ The backend for the DeepSeekR1-1.5b project is designed to be modular and scalab
 ```
 backend/
 ├── app/
-│   ├── __init__.py           # Initializes the Flask app
 │   ├── app.py                # Entry point for the Flask server
 │   ├── routes/
 │   │   ├── __init__.py       # Route initialization
