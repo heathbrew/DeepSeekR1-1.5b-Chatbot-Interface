@@ -62,21 +62,23 @@ The backend for the DeepSeekR1-1.5b project is designed to be modular and scalab
 backend/
 ├── app/
 │   ├── __init__.py           # Initializes the Flask app
-│   ├── main.py               # Entry point for the Flask server
+│   ├── app.py                # Entry point for the Flask server
 │   ├── routes/
 │   │   ├── __init__.py       # Route initialization
 │   │   └── query.py          # Handles `/prompt` API route
 │   └── services/
 │       └── model_service.py  # Interacts with the DeepSeekR1:1.5b model via Ollama
 ├── scripts/
-│   ├── install_venv.sh       # Installs the virtual environment
-│   ├── start_server.sh       # Starts the Flask server
-│   ├── calling_test.sh       # Test script for API endpoints
+│   ├── 1.install_venv.bat    # Batch script to install the virtual environment (Windows)
+│   ├── 1.install_venv.sh     # Shell script to install the virtual environment (Linux/Mac)
+│   ├── 2.start_server.bat    # Batch script to start the Flask server (Windows)
+│   ├── 2.start_server.sh     # Shell script to start the Flask server (Linux/Mac)
+│   ├── 3.calling_test.bat    # Batch script to test API endpoints (Windows)
+│   └── 3.calling_test.sh     # Shell script to test API endpoints (Linux/Mac)
 ├── tests/
 │   ├── __init__.py           # Test initialization
-│   └── test_query.py         # Unit tests for query API
+│   └── test_query.py         # Unit tests for the query API
 ├── venv/                     # Virtual environment directory
-├── Dockerfile                # Dockerfile for containerizing the backend
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Documentation for the backend
 ```
@@ -100,22 +102,16 @@ frontend/
 │   │   └── query/
 │   │       └── route.ts      # Proxies requests to the Flask backend
 │   ├── components/
-│   │   ├── animations/
 │   │   │   └── DottedBall.tsx    # Dotted ball animations
-│   │   ├── inputs/
 │   │   │   ├── InputBox.tsx      # User input component
 │   │   │   └── SubmitButton.tsx  # Submit button
-│   │   └── displays/
 │   │       └── ResponseDisplay.tsx  # Displays the chatbot's response
 │   ├── layout.tsx              # Global layout for the app
 │   ├── page.tsx                # Main chatbot interface
 │   └── styles/
-│       ├── animations/
 │       │   └── DottedBall.css
-│       ├── inputs/
 │       │   ├── InputBox.css
 │       │   └── SubmitButton.css
-│       └── displays/
 │           └── ResponseDisplay.css
 ├── public/                     # Static assets
 ├── .env.local                  # Environment variables
