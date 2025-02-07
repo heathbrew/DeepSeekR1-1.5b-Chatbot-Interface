@@ -12,7 +12,7 @@ The DeepSeekR1-1.5b Chatbot Interface provides a modular, scalable, and aestheti
 ---
 
 ## 3. Link to Medium Article
-[Read the Full Story on Medium](#)
+https://medium.com/@AyushmanPranav/deepseek-r1-the-ai-underdog-giving-openai-a-run-for-its-money-70e5a4b1de94
 
 ---
 
